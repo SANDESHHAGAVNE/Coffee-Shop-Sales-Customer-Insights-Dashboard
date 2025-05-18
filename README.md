@@ -1,34 +1,53 @@
 # Coffee-Shop-Sales-Customer-Insights-Dashboard
-About this project
-Situation
-A coffee shop has three store locations in New York City.
-You have been provided transaction data from Jan-Jun 2023. As a data analyst, your job is to analyze the data and understand the purchase behaviour of the customers.
-The company want you to build them a dashboard that they can use to identify patterns, trends and opportunities for business.
+☕ Coffee Shop Sales Dashboard
+Project Overview
 
-Step 1
-I opened the Excel file with the transaction data and familiarized myself with it.
-Looked at how many records are there. The max and min date so that we can come to know the date range.
-Looked at what type of products were sold.
-Use Excel formulas to add new columns for robust analysis.
-Like
-Revenue = price * quantity
-Month name = TEXT( date, ''mmm'')
-Weekday = TEXT(date, ''ddd'')
-Hour = HOUR(time)
+📌 Situation
+A coffee shop with three store locations in New York City provided transaction data from January to June 2023. As a Data Analyst, the objective was to analyze customer purchase behavior and build an interactive Excel dashboard to help the business identify sales trends, customer patterns, and growth opportunities.
 
-Step 2
-Started exploring the data using Pivot Tables showcasing
-Revenue by Month
-The total number of transactions made by day of week, hour and product category.
-The total number of transactions and revenue by product type
+🔍 Step 1: Data Preparation
+Opened the transaction dataset and reviewed the number of records and the date range (min and max dates).
 
-Step 3
-Once done with creating pivot tables now it was time to build a chart using the appropriate chart type.
+Identified the types of products sold.
 
-Key Insights and Recommendations
-There has been a growth in the revenue month by month.
-Most transactions take place on Mon, Thur and Fri.
-It seems that the coffee shop is mostly busy in the morning i.e. from 7-10 am.
-Regarding beverages like Coffee and Tea, Barista Espresso has the most revenue generated.
-But when it comes to quantity sold Brewed Chai Tea is sold the most with revenue generated of $77,082 which is less than the Barista Espresso (most generated revenue).
-Price can be increased for these products in order to generate more revenue for Barista Chai tea and Gourment brewed coffee as it is sold the highest.
+Created new columns using Excel formulas to enable deeper analysis:
+
+Revenue = Price × Quantity
+
+Month Name = TEXT(Date, "mmm")
+
+Weekday = TEXT(Date, "ddd")
+
+Hour of Transaction = HOUR(Time)
+
+📊 Step 2: Data Exploration via Pivot Tables
+Used Pivot Tables to uncover patterns:
+
+Monthly Revenue Trends
+
+Number of Transactions by:
+
+Day of the Week
+
+Hour of the Day
+
+Product Category
+
+Revenue and Quantity Sold by Product Type
+
+📈 Step 3: Dashboard Creation
+Created dynamic charts and visuals using Excel based on the pivot data.
+
+Added Slicers to make the dashboard interactive by filtering data based on date, product type, and category.
+
+✨ Key Insights & Recommendations
+📈 Monthly revenue shows consistent growth over the period.
+
+📅 Most transactions occur on Monday, Thursday, and Friday.
+
+⏰ Peak hours are 7:00 AM – 10:00 AM, indicating a strong morning customer base.
+
+☕ Barista Espresso generated the highest revenue, while Brewed Chai Tea had the highest quantity sold ($77,082 revenue).
+
+💡 Recommend price optimization for popular products like Barista Chai Tea and Gourmet Brewed Coffee to boost overall revenue.
+
