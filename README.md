@@ -55,6 +55,6 @@ Created pivot tables to analyze:
 
 ## 📊 Dashboard Preview
 
-![Coffee Shop Sales Dashboard](C:/Users/Dell/Pictures/coffee shops sales dashboard.png)
+![Coffee Shop Sales Dashboard](coffee shops sales dashboard.png)
 
 ---
