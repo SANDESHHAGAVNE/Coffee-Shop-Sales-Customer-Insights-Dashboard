@@ -53,9 +53,8 @@ Created pivot tables to analyze:
 
 ---
 
-## 📂 Files Included
+## 📊 Dashboard Preview
 
-- `Coffee_Shop_Sales_Dashboard.xlsx`: Excel file containing pivot tables, charts, and slicers.
-- `README.md`: Project summary and insights.
+![Coffee Shop Sales Dashboard](coffee shops sales dashboard.png)
 
 ---
