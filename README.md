@@ -1,53 +1,61 @@
 # Coffee-Shop-Sales-Customer-Insights-Dashboard
-☕ Coffee Shop Sales Dashboard
-Project Overview
+# ☕ Coffee Shop Sales Dashboard
 
-📌 Situation
-A coffee shop with three store locations in New York City provided transaction data from January to June 2023. As a Data Analyst, the objective was to analyze customer purchase behavior and build an interactive Excel dashboard to help the business identify sales trends, customer patterns, and growth opportunities.
+## 📌 Project Overview
 
-🔍 Step 1: Data Preparation
-Opened the transaction dataset and reviewed the number of records and the date range (min and max dates).
+A coffee shop with three store locations in New York City provided transaction data from **January to June 2023**. As a Data Analyst, the objective was to **analyze customer purchase behavior** and build an **interactive Excel dashboard** to help the business identify **sales trends**, **customer patterns**, and **growth opportunities**.
 
-Identified the types of products sold.
+---
 
-Created new columns using Excel formulas to enable deeper analysis:
+## 🔍 Step 1: Data Preparation
 
-Revenue = Price × Quantity
+- Opened and reviewed the dataset:
+  - Checked the number of records.
+  - Verified the minimum and maximum transaction dates.
+  - Identified types of products sold.
 
-Month Name = TEXT(Date, "mmm")
+- Added new columns using Excel formulas for better analysis:
+  - `Revenue = Price × Quantity`
+  - `Month Name = TEXT(Date, "mmm")`
+  - `Weekday = TEXT(Date, "ddd")`
+  - `Hour of Transaction = HOUR(Time)`
 
-Weekday = TEXT(Date, "ddd")
+---
 
-Hour of Transaction = HOUR(Time)
+## 📊 Step 2: Data Exploration Using Pivot Tables
 
-📊 Step 2: Data Exploration via Pivot Tables
-Used Pivot Tables to uncover patterns:
+Created pivot tables to analyze:
 
-Monthly Revenue Trends
+- **Monthly Revenue Trends**
+- **Number of Transactions** by:
+  - Day of the Week
+  - Hour of the Day
+  - Product Category
+- **Revenue and Quantity Sold** by Product Type
 
-Number of Transactions by:
+---
 
-Day of the Week
+## 📈 Step 3: Dashboard Creation
 
-Hour of the Day
+- Built interactive charts and visuals in Excel.
+- Added **Slicers** to filter data dynamically based on:
+  - Store Location
+---
 
-Product Category
+## ✨ Key Insights & Recommendations
 
-Revenue and Quantity Sold by Product Type
+- 📈 **Monthly revenue** shows consistent growth from Jan to Jun 2023.
+- 📅 **Most transactions** occur on **Monday**, **Thursday**, and **Friday**.
+- ⏰ **Peak hours**: 7:00 AM – 10:00 AM, indicating strong morning traffic.
+- ☕ **Barista Espresso** generated the **highest revenue**.
+- 🍵 **Brewed Chai Tea** sold in the highest quantity, generating **$77,082** in revenue.
+- 💡 **Recommendation**: Consider increasing the price of popular products like **Barista Chai Tea** and **Gourmet Brewed Coffee** to boost overall revenue.
 
-📈 Step 3: Dashboard Creation
-Created dynamic charts and visuals using Excel based on the pivot data.
+---
 
-Added Slicers to make the dashboard interactive by filtering data based on date, product type, and category.
+## 📂 Files Included
 
-✨ Key Insights & Recommendations
-📈 Monthly revenue shows consistent growth over the period.
+- `Coffee_Shop_Sales_Dashboard.xlsx`: Excel file containing pivot tables, charts, and slicers.
+- `README.md`: Project summary and insights.
 
-📅 Most transactions occur on Monday, Thursday, and Friday.
-
-⏰ Peak hours are 7:00 AM – 10:00 AM, indicating a strong morning customer base.
-
-☕ Barista Espresso generated the highest revenue, while Brewed Chai Tea had the highest quantity sold ($77,082 revenue).
-
-💡 Recommend price optimization for popular products like Barista Chai Tea and Gourmet Brewed Coffee to boost overall revenue.
-
+---
