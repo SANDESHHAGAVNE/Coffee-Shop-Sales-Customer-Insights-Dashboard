@@ -56,5 +56,6 @@ Created pivot tables to analyze:
 ## 📊 Dashboard Preview
 
 ![Coffee Shop Sales Dashboard](coffee shops sales dashboard.png)
+<img src="coffee shops sales dashboard.png" width="800">
 
 ---
